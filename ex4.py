@@ -9,7 +9,7 @@ def draw(canvas):
     canvas.create_line(175,160, 215,210)
 
 root=tk.Tk()
-canvas=tk.Canvas(root, width=400, height=300)
+canvas=tk.Canvas(root,width=400,height=300)
 canvas.pack()
 draw(canvas)
 root.mainloop()
